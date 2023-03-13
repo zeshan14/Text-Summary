@@ -9,13 +9,6 @@ index.html
 design.css
 summary.html
 
-Packages needed
-from Flask import flask
-import spacy
-from spacy.lang.en.stop_words import STOP_WORDS
-from string import punctuation 
-from heapq import nlargest
-
 💻 Steps to execute
 1. Define and implement the text summarization algorithm in text_summary.py.
 2. Define the Flask server and routes in app.py, which will handle the incoming requests from the user interface.
